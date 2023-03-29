@@ -4,6 +4,8 @@
 }
 
 .container {
+    margin-left: 150px;
+    margin-bottom: 150px;
     font-family: Arial;
     background-color: #1F2937;
     display: flex;
@@ -11,36 +13,44 @@
   }
   
   .logo {
-    margin: 15px;
+    margin-top: 15px;
     font-weight: bold;
     font-size: 24px;
     color: #F9FAF8;
   }
 
   .links {
-    margin: 15px;
+    margin-top: 15px;
+    margin-right: 150px;
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
     justify-content: flex-end;
   }
 
-  .two {
-    margin-left: 15px;
+  .one {
+    margin-right: 25px;
   }
 
+  .two {
+    margin-right: 25px;
+  }
+
+
   .three {
-    margin: 15px;
+    margin-right: 25px
   }
 
   .container-2 {
+    margin-right: 200px;
+    padding-bottom: 100px;
     display: flex;
     justify-content: space-between;
   }
 
   .image {
-    height: auto;
-    width: auto;
+    height: 50px;
+    width: 400px;
     font-family: Arial;
     color: #E5E7EB;
     background-color: grey;
@@ -51,8 +61,6 @@
   }
 
   .title {
-    margin: 50px;
-    padding: 0;
     font-family: Arial;
     font-weight: bold;
     font-size: 48px;
@@ -62,10 +70,21 @@
 
 
   .para {
-    margin: 50px;
     font-family: Arial;
     font-size: 18px;
     color: #E5E7EB;
+  }
+
+  button {
+    display: inline-block;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: #3882F6;
+    border-radius: 10px;
   }
 
   body, html {
