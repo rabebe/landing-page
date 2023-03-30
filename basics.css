@@ -43,13 +43,13 @@
 
   .container-2 {
     margin-right: 200px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
   }
 
   .image {
-    height: 50px;
+    height: 100px;
     width: 400px;
     font-family: Arial;
     color: #E5E7EB;
